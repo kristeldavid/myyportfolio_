@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> LabTask6-1 </title>
+</head>
+<style> 
+
+input
+{
+ display: block;
+}
+
+button
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+img
+{
+    text-align: center;
+    height: 100px;
+    display: block;
+    margin: 0 auto ;
+}
+
+.google
+{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 25px;
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    
+}
+
+.exercise
+{
+    display: flex;
+    gap: 5px;
+}
+
+.email
+{
+    width: 18.8%;
+    margin-top: 10px;
+   
+}
+
+.signup
+{
+    color: white;
+    background-color: blue;
+    margin-top: 10px;
+    width: 19.4%;
+    margin-left: auto;
+}
+
+.signup:hover
+{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+
+
+.ride input
+{
+    width: 300px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.now
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 130px;
+    margin-top: 10px;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.later
+{
+    margin-top: 10px;
+    width: 130px;
+    margin-left: auto;
+    padding: 5px;
+}
+.later:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.request
+{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: rgb(221, 223, 220);
+
+}
+</style>
+
+<body>
+
+<input type="text" size="14" placeholder="name">
+<input type="email" size="14" placeholder="email">
+
+
+<p> Thanks for chatting with our customer support. Would you 
+    like to take our quick survey?
+
+        <button type="yes">Yes</button>
+        <button type="no">No</button>  
+</p>
+<br>
+<br>
+<img src ="piclogo.jpeg">
+
+<input type="text" size="14" placeholder="Search Google or type a URL" class="google">
+<br>
+<br>
+
+
+<h1> Sign up form</h1>
+<br>
+<div class="exercise">
+<input type="text" size="14" placeholder="First Name">
+<input type="password" size="14" placeholder="Last Name">
+</div>
+
+<input type="email" size="14" placeholder="Email" class="email">
+
+<button type="signup" class="signup">Sign Up</button>  
+
+<br>
+<br>
+
+<h1> Uber request a ride form</h1>
+
+<label class="request">Request a ride now</label>
+<div class="ride">
+<input type="text" size="14" placeholder="Enter pickup location">
+<input type="text" size="14" placeholder="Enter destination">
+</div>
+
+
+<button type="now" class="now">Resquest Now</button>
+<button type="later" class="later">Schedule for later</button>  
+</body>
+</html>
